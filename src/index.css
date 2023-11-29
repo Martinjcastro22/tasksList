@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: rgb(32, 30, 30);
+  color: aliceblue;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: red;
+
+}
+
+.task {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
